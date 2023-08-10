@@ -3,10 +3,11 @@ import NavLayout from "./NavLayout";
 
 export default function HomeLayout({children}) {
   return (
-    <div className="pb-[399px] pt-[32px] pl-[219px] pr-[218px] bg-gradient-to-r from-sky-500 to-indigo-500 ">
+    <div className="w-108 pb-25 pt-2 pl-14 pr-14  max-sm:pl-5 max-sm:pr-5 ">
         <NavLayout/>
         {children}
         <Home/>
+   
     </div>
   )
 }
